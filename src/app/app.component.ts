@@ -9,10 +9,10 @@ import { ExampleComponent } from './core/components/example/example.component';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  constructor(public dialog: DialogService) {}
+  constructor(public _dialog: DialogService) {}
 
   open() {
-    const dialog = this.dialog.open(ExampleComponent, {
+    const dialog = this._dialog.open(ExampleComponent, {
       data: {
         message: 'I am a dynamic component inside of a dialog!'
       }
