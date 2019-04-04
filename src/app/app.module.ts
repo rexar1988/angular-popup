@@ -11,6 +11,7 @@ import { TestComponent } from './core/components/test/test.component';
 import { ModalFormComponent } from './modules/home/components/modal-form/modal-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AboutModule } from './modules/about/about.module';
+import { DynamicModule } from './dynamic.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AboutModule } from './modules/about/about.module';
     AppRoutingModule,
     ReactiveFormsModule,
     DialogModule,
-    AboutModule
+    AboutModule,
+    DynamicModule
   ],
   bootstrap: [AppComponent],
   entryComponents: [
