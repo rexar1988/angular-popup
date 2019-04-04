@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { ExampleComponent } from './core/components/example/example.component';
 import { TestComponent } from './core/components/test/test.component';
 import { ModalFormComponent } from './modules/home/components/modal-form/modal-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ModalFormComponent } from './modules/home/components/modal-form/modal-f
     BrowserModule,
     AppRoutingModule,
     DialogModule,
+    ReactiveFormsModule,
   ],
   bootstrap: [AppComponent],
   entryComponents: [

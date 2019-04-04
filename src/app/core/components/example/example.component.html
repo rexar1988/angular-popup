@@ -1,6 +1,13 @@
 <div class="text-wrapper">
-  <p>{{config.data['message']}}</p>
+  <form [formGroup]="form" (submit)="onFormSubmit()">
+    <h2>{{config.data['message']}}</h2>
+    <label>
+      <input type="text" placeholder="Enter your name" formControlName="name">
+    </label>
+    <button>Send form</button>
+  </form>
 </div>
+
 <div class="actions">
   <button class="button" (click)="onClose()">CANCEL</button>
   <button class="button" (click)="onClose()">OK</button>
