@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DialogService } from '../../core/modules/dialog/services/dialog.service';
+import { DialogService } from '../../modules/dialog/services/dialog.service';
 import { ConfirmComponent } from './components/modals/confirm/confirm.component';
 
 @Component({

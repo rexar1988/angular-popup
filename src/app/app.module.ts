@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 // !!!
-import { DialogModule } from './core/modules/dialog/dialog.module';
+import { DialogModule } from './modules/dialog/dialog.module';
 
 import { AppComponent } from './app.component';
-import { ExampleComponent } from './core/components/example/example.component';
-import { TestComponent } from './core/components/test/test.component';
-import { ModalFormComponent } from './modules/home/components/modal-form/modal-form.component';
+import { ExampleComponent } from './components/example/example.component';
+import { TestComponent } from './components/test/test.component';
+import { ModalFormComponent } from './pages/home/components/modal-form/modal-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { AboutModule } from './modules/about/about.module';
+import { AboutModule } from './pages/about/about.module';
 import { DynamicModule } from './dynamic.module';
 
 @NgModule({

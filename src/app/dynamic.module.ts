@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ConfirmComponent } from './modules/about/components/modals/confirm/confirm.component';
+import { ConfirmComponent } from './pages/about/components/modals/confirm/confirm.component';
 
 @NgModule({
   declarations: [
